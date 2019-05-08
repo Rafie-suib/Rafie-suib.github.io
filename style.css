@@ -69,6 +69,7 @@ body{
 	padding: .6rem 1.3rem;
 	font-size: 1.1rem;
 	color: white;
+	animation-delay: 1s;
 }
 .btn-lg:hover{
 	animation-name: button;
