@@ -48,6 +48,7 @@ body{
 	z-index: 1;
 	color: white;
 	text-transform: uppercase;
+	font-family: 'Montserrat'
 }
 .caption h1{
 	font-size: 3.8rem;
