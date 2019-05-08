@@ -1,8 +1,9 @@
-@import url('https://fonts.googleapis.com/css?family=Lato:400,700');
+@import url('https://fonts.googleapis.com/css?family=Caveat|Gloria+Hallelujah|Handlee|Kalam');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
 
 body{
 	overflow-x: hidden;
-	font-family: 'Lato', sans-serif;
+	font-family: 'Handlee', cursive;
 	color: #505962
 }
 .offset:before{
@@ -54,18 +55,29 @@ body{
 	letter-spacing: .3rem;
 	text-shadow: .1rem .1rem .8rem black;
 	padding-bottom: 1rem;
+	animation-duration: 1s;
 }
 .caption h3{
 	font-size: 2rem;
 	text-shadow: .1rem .1rem .5rem black;
 	padding-bottom: 1.6rem;
+	animation-duration: 2s;
 }
 .btn-lg{
 	border-width: medium;
-	border-radius: 0;
+	border-radius: 1;
 	padding: .6rem 1.3rem;
 	font-size: 1.1rem;
 	color: white;
+}
+.btn-lg:hover{
+	animation-name: button;
+}
+
+@keyframes button{
+	from{background-color: black;}
+	to{background-color: white;}
+
 }
 
 
