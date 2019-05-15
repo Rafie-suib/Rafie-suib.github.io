@@ -228,6 +228,8 @@ hr.socket{
 	min-height: 100vh;
 	background-color: rgba(0,0,0,0.5);
 }*/
+
+/*video background only if i want to put */
 #videoBackground{
 	position: relative;
 	z-index: -1;
@@ -244,4 +246,16 @@ hr.socket{
 		width: auto;
 		height: 100%;
 	}
+}
+
+/* Carousel image size */
+.carousel-inner img{
+	height: 757px;
+}
+.carou{
+	font-size: 2rem;
+	font-family: 'Montserrat' , sans-serif;
+	width: 100%;
+	height: 100%
+	padding: 2rem 2rem;
 }
