@@ -250,7 +250,8 @@ hr.socket{
 
 /* Carousel image size */
 .carousel-inner img{
-	height: 757px;
+	height: 100%;
+	width: 100%;
 }
 .carou{
 	font-size: 2rem;
